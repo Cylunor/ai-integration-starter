@@ -1,0 +1,50 @@
+{
+  "name": "ai-integration-starter",
+  "version": "1.0.0",
+  "description": "Production-ready Next.js starter kit for integrating OpenAI and Anthropic Claude into business workflows",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "openai": "^4.0.0",
+    "@anthropic-ai/sdk": "^0.36.0",
+    "ai": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^16.0.0",
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/postcss": "^4.0.0"
+  },
+  "keywords": [
+    "nextjs",
+    "ai",
+    "openai",
+    "anthropic",
+    "claude",
+    "typescript",
+    "starter-kit",
+    "ai-integration",
+    "llm",
+    "workflow-automation"
+  ],
+  "author": "Cylunor <info@cylunor.com> (https://cylunor.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cylunor/ai-integration-starter.git"
+  },
+  "homepage": "https://github.com/Cylunor/ai-integration-starter#readme"
+}
